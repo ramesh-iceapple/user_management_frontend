@@ -1,0 +1,16 @@
+schedules:
+- cron: '0 */1 * * *'
+  displayName: MitraGaming Frontend Watcher Pipeline - Execute automation script hourly
+  branches:
+    include:
+    - development
+
+pool:
+  name: Build_Servers
+
+jobs:
+- job: PrintMessage
+  steps:
+  - script: |
+      echo "Automation pipeline triggered!"
+    displayName: 'Trigger automation script'

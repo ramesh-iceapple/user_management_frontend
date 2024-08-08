@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@users-platform/iceapple": ["libs/iceapple/src/index.ts"],
+      "@mitra-gaming-platform/redux-modules/*": [
+        "apps/mitra-gaming-platform/src/app/redux-modules/*"
+      ],
+    },
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "tmp"]
+}

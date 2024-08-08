@@ -1,0 +1,9 @@
+export { MenuIcon } from './MenuIcon';
+export { DropDownIcon } from './DropDownIcon';
+export { UserAvatarIcon } from './UserAvatarIcon';
+export { SearchIcon } from './SearchIcon';
+export { FunnelIcon } from './FunnelIcon';
+export { ArrowDown } from './ArrowDown';
+export { ResetIcon } from './ResetIcon';
+export { FileUploadIcon } from './FileUploadIcon';
+export { PlusIcon } from './PlusIcon';

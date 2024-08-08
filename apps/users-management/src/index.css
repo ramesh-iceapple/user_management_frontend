@@ -1,0 +1,15 @@
+html,
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+}
+
+iframe {
+  width: 100%;
+  min-height: 100vh;
+  border: 0px;
+}
+
+.toastError, .toastInfo,.toastLoading,.toastSuccess, .toastWarning {
+  display: block;
+}
